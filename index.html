@@ -14,6 +14,11 @@
   .tag { color:var(--accent); margin:0 0 28px; font-style:italic; }
   video { width:100%; max-width:360px; aspect-ratio:9/16; background:#000; border-radius:16px; box-shadow:0 8px 28px rgba(59,42,32,.25); }
   p { margin:18px 0; }
+  h2 { font-size:1.2rem; margin:36px 0 12px; }
+  .grid { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+  figure { margin:0; width:100%; max-width:240px; }
+  figure video { max-width:100%; }
+  figcaption { font-size:.85rem; opacity:.75; margin-top:6px; }
   .note { font-size:.9rem; opacity:.75; }
 </style>
 </head>
@@ -23,6 +28,17 @@
   <p class="tag">short videos for cafes</p>
   <video controls playsinline preload="metadata" poster="poster.jpg" src="reel.mp4"></video>
   <p>Short, cinematic vertical videos for local cafes, bakeries and restaurants, made for Instagram Reels and TikTok.</p>
+  <h2>More examples</h2>
+  <div class="grid">
+    <figure>
+      <video controls playsinline preload="metadata" poster="croissant-poster.jpg" src="croissant-15s.mp4"></video>
+      <figcaption>Cafe, 15 seconds</figcaption>
+    </figure>
+    <figure>
+      <video controls playsinline preload="metadata" poster="tacos-poster.jpg" src="tacos.mp4"></video>
+      <figcaption>Taqueria, 8 seconds</figcaption>
+    </figure>
+  </div>
   <p>Hi, I'm Isko. If you'd like one for your place, write to me at <a href="mailto:isko.crumbreels@gmail.com">isko.crumbreels@gmail.com</a>.</p>
   <p class="note">All videos on this page are generated with AI.</p>
 </main>
